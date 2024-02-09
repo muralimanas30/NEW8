@@ -39,7 +39,7 @@ p{
 body{
     background:url("https://wallpaperxyz.com/wp-content/uploads/Picture-Website-Wallpaper-FHD-Free-Download-Laptop-Desktop-Macbook-2510-Wallpaperxyz.com-6.jpg") no-repeat;
     background-size: cover;
-    background-position: center;
+    
 }
 
 #jj{
@@ -53,4 +53,10 @@ body{
 #jj:hover{
     box-shadow: 0px 3px 25px 3px red;
     scale: 1.05;
+}
+
+
+@media only screen and (max-width:430px){
+    body{background-position: 50% 40%;
+    }
 }
